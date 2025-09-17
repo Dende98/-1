@@ -1,15 +1,15 @@
 
 
-// function factorialIt(numb) {
-//   let result = 1;
-//    if (numb < 0) throw new Error('Введите число больше нуля');
-//   for (let i = 1; i <= numb; i++) {
+function factorialIt(numb) {
+  let result = 1;
+   if (numb < 0) throw new Error('Введите число больше нуля');
+  for (let i = 1; i <= numb; i++) {
    
-//     result *= i;
-//   }
-//   return result;
-// }
-// console.log(factorialIt(5));
+    result *= i;
+  }
+  return result;
+}
+console.log(factorialIt(5));
 
 // рекрусия//
 
